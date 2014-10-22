@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
+body {
+	font-family: Open Sans Condensed, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	margin: 40px auto;
+	width: 960px;
+}
+
+text {
+	font-family: Open Sans Condensed, Arial, sans-serif;
+	fill: #333;
+	dominant-baseline: middle;
+	text-anchor: middle;
+}
+
+
+
+strong {
+	font-weight: bold;
+}
+
+li {
+	padding: 20px 20px;
+	font-weight: bold;
+	line-height: 1.25;
+}
+
+form {
+/*	border-bottom: 2px solid #333;
+*/	overflow: hidden;
+}
+
+label, input {
+	float: left;
+	font-size: 32px;
+	padding: 10px 0 10px 0;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	margin-right: 7px;
+}
+
+label {
+	color: #fc3729;
+}
